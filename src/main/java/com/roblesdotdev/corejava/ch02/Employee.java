@@ -15,7 +15,8 @@ public class Employee {
         this.salary = salary;
     }
 
-    public String getName() {
+    // final methods cannot override
+    public final String getName() {
         return name;
     }
 
